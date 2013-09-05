@@ -1,0 +1,9 @@
+{
+    "name": "Backend",
+    "version": "0.1.0",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-less": "~0",
+        "grunt-contrib-watch": "~0"
+    }
+}

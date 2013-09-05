@@ -1,0 +1,31 @@
+/* Main page layout */
+
+.container {
+	max-width: 1200px;
+	min-width: 1000px;
+}
+
+.header {
+	&:extend(.row);
+
+	.top-menu {
+		&:extend(.col-xs-8);		
+		background: orange;
+
+		&__list {
+			&:extend(.menu);
+			&:extend(.clearfix all);
+		}
+	}
+
+	.top-info {
+		&:extend(.col-xs-4);
+		background: yellowgreen;
+	}
+
+	.current-city {
+		float: right;
+		padding: 10px;
+	}
+}
+
