@@ -1,0 +1,14 @@
+<ul class="top-menu__list">
+
+	{% for topMenuItem in topMenu %}
+		<li
+			{% if loop.first %} class="top-menu__item top-menu__item active" 
+			{% else %} class="top-menu__item top-menu__item" 
+			{% endif %}>
+			<a href="#" class="link">
+				{{ topMenuItem }}
+			</a>
+		</li>
+	{% endfor %}
+
+</ul>

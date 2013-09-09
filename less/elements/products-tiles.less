@@ -1,0 +1,35 @@
+.products-tiles {
+	&:extend(.row);
+
+	&-layout {
+		&:extend(.col-xs-12);
+		margin-top: 20px;
+		background: #fff;
+	}
+
+	.products-tiles__cell {
+		border-right: solid 1px #e6e8e9;
+		border-top: solid 1px #e6e8e9;
+		text-align: center;
+		padding: 0 20px;
+	}
+
+	.content {
+		padding: 0;
+		height: 100%;
+		width: 100%;
+
+		&__cell {
+			&__name {
+				text-align: left;
+				margin: 7px 0 9px;
+				font-weight: normal;
+				min-height: 55px;
+			}
+
+			&__options {
+				text-align: left;
+			}
+		}
+	}
+}
