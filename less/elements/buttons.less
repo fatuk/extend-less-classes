@@ -1,0 +1,28 @@
+.my-btn {
+	padding: 10px;
+	position: relative;
+	display: inline-block;
+	background: brown;
+	color: #fff;
+	text-decoration: none;
+
+	&:hover {
+		color: yellow;
+		text-decoration: none;
+	}
+
+	&:before {
+		content: '#';
+		position: absolute;
+		width: 30px;
+		background: brown;
+		padding: 10px;
+		top: 0;
+		left: -30px;
+		border-right: solid 1px #fff;
+
+		&:hover {
+			color: yellow;
+		}
+	}
+}

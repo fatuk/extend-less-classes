@@ -1,0 +1,48 @@
+.banners {
+	&:extend(.row);
+	&:extend(.clearfix all);
+	width: 99%;
+	.center();
+
+	&__list {
+		&:extend(.flat-list all);
+	}
+
+	&__place {
+		&:extend(.col-xs-4);
+		background: orange;
+	}
+}
+
+.banners-item_big {
+	// height: 325px;
+
+	.img {
+		width: 100%;
+	}
+
+	.footer {
+		&:extend(.clearfix all);
+
+		.text-block {
+			float: left;
+			background: yellow;
+			width: 65%;
+
+			.title {
+				font-size: 18px;
+				font-weight: normal;
+				margin: 0;
+			}
+		}
+
+		.read-more-btn {
+			&:extend(.my-btn all);
+			float: right;
+			margin-top: 5px;
+		}
+	}
+
+	
+}
+
